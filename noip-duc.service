@@ -11,6 +11,8 @@ Restart=always
 RestartPreventExitStatus=1
 RestartSec=5min
 SyslogIdentifier=noip-duc-ipv6
+User=nobody
+Group=nogroup
 
 [Install]
 WantedBy=multi-user.target
