@@ -10,6 +10,7 @@ ExecStart=/bin/bash /usr/local/bin/noip-ducv6.sh
 Restart=always
 RestartPreventExitStatus=1
 RestartSec=5min
+SyslogIdentifier=noip-duc-ipv6
 
 [Install]
 WantedBy=multi-user.target
